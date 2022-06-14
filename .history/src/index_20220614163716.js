@@ -16,7 +16,7 @@ const init = () => {
                 const summary = document.querySelector('section#movieDetails p')
 
                 title.innerText = data.title;
-                summary.innerText = data.summary
+                summary.innerText = data
             })
     });
   
